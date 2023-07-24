@@ -3,6 +3,8 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
+<h1>About</h1>
+
 <div class="text-column">
 	<h1>About this app</h1>
 
