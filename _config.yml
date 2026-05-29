@@ -1,7 +1,12 @@
-theme: jekyll-theme-minimal
-title: Lucas Butzke homepage
-description: My personal homepage
+title: Personal projects blog
+email: lucasbutzke@gmail.com
+description: My personal homepage and projects blog.
 url: https://lucasbutzke.github.io
 baseurl: ""
-author: Lucas Butzke
-email: lucascbutzke@gmail.com
+github_username: lucasbutzke
+
+remote_theme: pages-themes/minimal@v0.2.0
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
