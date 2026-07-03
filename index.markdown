@@ -5,7 +5,7 @@
 layout: default
 ---
 
-My name is Lucas and I'm a embedded software engineer.
+I'm a embedded software engineer and here is a description of some projects and problem solving techniques on my daily tasks.
 
 ## Posts
 
