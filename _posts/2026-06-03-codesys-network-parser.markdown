@@ -17,6 +17,46 @@ TCP NETWORK PACKET
 
 APP PROTOCOL PACKET
 
+Title
+Hunting a Parsing Bug Inside a Black Box Server
+
+Story:
+A device occasionally rejected perfectly valid packets.
+The protocol documentation looked correct.
+Wireshark showed the packets were identical.
+Restarting the server fixed the issue...
+...until it happened again.
+
+Then continue with
+packet dumps
+timestamps
+hex dumps
+reproducing the issue
+discovering a length field wasn't validated correctly
+implementing a robust parser
+Readers enjoy trying to solve the mystery before the reveal.
+
+Title
+The TCP Connection That Never Died
+
+Start with:
+Our proxy slowly stopped accepting new clients.
+CPU usage was low.
+Memory looked fine.
+No crashes.
+Yet after a few hours, new devices could no longer connect.
+
+Then explain:
+one endpoint on unstable Wi-Fi
+packets silently disappearing
+one side believing the connection was alive
+the other side had already gone away
+socket remaining ESTABLISHED
+file descriptor leak
+lack of keepalive or application heartbeat
+Finish with:
+The fix wasn't a retry loop—it was designing the connection lifecycle correctly.
+This teaches a valuable lesson about network resilience.
 
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
