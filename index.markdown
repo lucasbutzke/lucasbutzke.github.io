@@ -5,7 +5,7 @@
 layout: default
 ---
 
-Welcome to my personal projects blog.
+My name is Lucas and I'm a embedded software engineer.
 
 ## Posts
 
