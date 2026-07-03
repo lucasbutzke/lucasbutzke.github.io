@@ -1,10 +1,22 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2026-05-29 09:30:21 -0300
+title:  "Creating and Debbugging a CODESYS Network Parser"
+date:   2026-06-03 00:00:00 +0000
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+The porpose of this post is not to explain how to program PLCs or to greate elaborate Structured Text code or libraries, just in how to use code blocks from the CODESYS IDE and tools used to develop and debug a TCP server that we created to comunicate in a custom application protocol.
+
+WIRESHARK PROTOCOL
+
+WIRESHARK PARSER
+
+TCP NETWORK PACKET
+
+APP PROTOCOL PACKET
+
+
+<!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
 
@@ -26,4 +38,4 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[jekyll-talk]: https://talk.jekyllrb.com/ -->
